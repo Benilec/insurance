@@ -1,0 +1,100 @@
+body {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.header {
+    display: grid;
+    grid-template-areas: 
+    "a a b b"
+    "a a c c";
+}
+
+.left {
+    background-color: lightblue;
+    padding: 50px;
+    grid-area: a;
+    display: grid;
+    grid-template-areas: 
+    ". we we ."
+    ". together together ."
+    ". join img img"
+    ". . img img";
+}
+
+.left1 {
+    grid-area: we;
+}
+
+.left2 {
+    grid-area: together;
+}
+
+.submit {
+    grid-area: join;
+    border-radius: 10px;
+    background: white;
+}
+
+.up {
+    grid-area: b;
+    background-color: lightcoral;
+    display: grid;
+    padding: 20px;
+    grid-template-areas: 
+    ". . ."
+    ". text1 ."
+    ". text2 ."
+    ". . .";
+}
+
+.text1 {
+    grid-area: text1;
+}
+
+.text2 {
+    grid-area: text2;
+}
+
+.down {
+    grid-area: c;
+    background-color: orange;
+    display: grid;
+    padding: 20px;
+    grid-template-areas: 
+    ". . ."
+    ". txt1 ."
+    ". txt2 ."
+    ". . .";
+}
+
+.txt1 {
+    grid-area: txt1;
+}
+
+.txt2 {
+    grid-area: txt2;
+}
+
+        
+.headerList {
+    background-color: white;
+    color: rgb(133, 133, 133);
+    display: inline;
+    list-style: none;
+    align-content: space-around;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.home {
+    color: black;
+}
+
+.white {
+    color: white;
+}
+
+
+.abc {
+    color: white;
+}

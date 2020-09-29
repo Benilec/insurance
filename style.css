@@ -13,7 +13,6 @@ body {
 
 .left {
     background-color: lightblue;
-    padding: 50px;
     grid-area: a;
     display: grid;
     grid-template-areas: 
@@ -25,16 +24,19 @@ body {
 
 .left1 {
     grid-area: we;
+    text-align: center;
 }
 
 .left2 {
     grid-area: together;
+    text-align: center;
 }
 
 .submit {
     grid-area: join;
-    border-radius: 10px;
+    border-radius: 30px;
     background: white;
+    text-align: center;
 }
 
 .up {
